@@ -1,0 +1,6 @@
+pip install django djangorestframework django-cors-headers djangorestframework-simplejwt
+python -m pip install Pillow
+pip install django-jazzmin
+py -m pip install Django==5.0.8
+pip install mysqlclient
+pip install pandas openpyxl numpy ipykernel nbconvert
