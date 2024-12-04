@@ -1,0 +1,229 @@
+/* the rest is in the correlationComponent.css*/
+
+
+.ComparatorPageChangerButtons {
+    position: absolute;
+    margin-top: -39px;
+    z-index: 2;
+    margin-left: 100px;
+}
+
+.ComparatorpageChanger {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    outline: none;
+    width: 150px;
+    height: 39px;
+    background: #08074e;
+    border-radius: 20px 20px 0 0;
+    border: 1px solid #8F9092;
+    transition: all 0.2s ease;
+    font-weight: 600;
+    color: #ffffff;
+    text-align: center;
+    font-family: "Hanken Grotesk-Semi Bold", sans-serif;
+    font-size: 15px;
+    box-shadow: 2px 0px 16.8px 0px rgba(0, 0, 0, 0.25);
+
+}
+
+.SecondComparatorPageChangerButtons {
+    position: absolute;
+    margin-top: -39px;
+    background: #f3f5fa;
+    border-radius: 20px 20px 0px 0px;
+    width: 125px;
+    height: 39px;
+    box-shadow:  -2px 0px 2px 0px rgba(0, 0, 0, 0.25);
+    color: #08074e;
+    text-align: center;
+    font-family: "Hanken Grotesk-Semi Bold", sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding-left: 10px;
+}
+
+.SecondComparatorPageChangerButtons:hover+.CorrelationImg {
+    opacity: 1;
+}
+
+.SecondComparatorPageChangerButtons:hover {
+    box-shadow: 0 4px 3px 1px #FCFCFC, 0 6px 8px #D6D7D9, 0 -4px 4px #CECFD1, 0 -6px 4px #FEFEFE, inset 0 0 3px 3px #CECFD1;
+}
+
+.CorrelationImg {
+    position: absolute;
+    margin-top: -86px;
+    margin-left: -35px;
+    width: 120px;
+    transition: opacity 0.2s ease;
+    opacity: 0;
+}
+
+.correlationChoices {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 4% 25px 4%;
+}
+
+
+.correlationchangeChoice {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+    gap: 2px;
+}
+
+.AutomaticFocused {
+    color: #08074e;
+    text-align: left;
+    font-family: "Inter-Regular", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    padding-left: 5px;
+    border-left: solid 2px #08074e;
+    cursor: pointer;
+}
+
+.Automatic {
+    color: #d2d3d8;
+    text-align: left;
+    font-family: "Inter-Regular", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    padding-left: 6.5px;
+    cursor: pointer;
+}
+
+.ManualFocused {
+    color: #08074e;
+    text-align: left;
+    font-family: "Inter-Regular", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    padding-left: 5px;
+    border-left: solid 2px #08074e;
+    cursor: pointer;
+}
+
+.Manual {
+    color: #d2d3d8;
+    text-align: left;
+    font-family: "Inter-Regular", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    padding-left: 6.5px;
+    cursor: pointer;
+}
+
+.correlationArticle {
+    color: #08074e;
+    text-align: center;
+    font-family: "Hanken Grotesk-Semi Bold", sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+}
+
+.correlationArticleSelection {
+    width: 200px;
+}
+
+.CorrelationTimeLine {
+    color: #08074e;
+    text-align: center;
+    font-family: "Hanken Grotesk-Semi Bold", sans-serif;
+    font-size: 15px;
+    line-height: 31.34px;
+    letter-spacing: 0.28px;
+    font-weight: 600;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    padding: 0;
+}
+
+.correlationOneProdFilters {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.correlationLine {
+    border-style: solid;
+    border-color: #d2d3d8;
+    border-width: 1px 0px 0px 0px;
+}
+
+
+.ComparatorApply {
+    background: #08074e;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: #565656;
+    border-width: 0.5px;
+    color: #fdfdfd;
+    text-align: center;
+    font-family: "Hanken Grotesk-Regular", sans-serif;
+    width: 100px;
+    height: 27px;
+}
+
+
+.selectedFiltersOneComp {
+    color: #8d8dae;
+    text-align: left;
+    font-family: "Hanken Grotesk-Semi Bold", sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: start;
+    gap: 10px;
+}
+
+.ComparatorRectangle {
+    border-radius: 20px;
+    border-style: solid;
+    border-color: #8d8dae;
+    border-width: 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5% 20% 5% 20%;
+    padding: 20px;
+}
+
+.ComparatorCategory {
+    color: #8d8dae;
+    text-align: center;
+    font-family: "Hanken Grotesk-Semi Bold", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    margin: 20px;
+}
+
+.ComparatorProductNames{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}

@@ -1,0 +1,16 @@
+export { default as Home } from './home/Home';
+export { default as AboutUs } from './aboutUs/AboutUs';
+export { default as OurServices } from './OurServices/OurServices';
+export { default as Heatmap } from './heatMap/Heatmap';
+export { default as HeatmapFlow } from './heatMapFlow/HeatMapFlow';
+export { default as HeatMapComparator } from './HeatMapComparator/HeatMapComparator';
+export { default as Comparator } from './Comparator/Comparator';
+export { default as TimeLinePage } from './timeLinePage/TimeLinePage';
+export { default as PriceIndexPage } from './PriceIndexPage/PriceIndexPage';
+export { default as DashboardPage } from './DashboardPage/DashboardPage';
+export { default as ForecastingPage } from './forecastingPage/ForecastingPage';
+export { default as AffinityTestingTop10 } from './affinityTestingTop10/AffinityTestingTop10';
+export { default as LoginV2 } from './loginV2/LoginV2';
+export { default as SecondPriceIndexPage } from './secondPriceIndexPage/SecondPriceIndexPage';
+export { default as CorrelationPage } from './correlationPage/CorrelationPage';
+export { default as ComparatorPage } from './comparatorPage/ComparatorPage';

@@ -1,0 +1,117 @@
+.containerCustomerFlow {
+    display: flex; /* Use flexbox */
+    position: relative; /* Position relative for containing the spheres and pixel viewer */
+}
+
+.containerCustomerFlow .image {
+    width: 82%; /* Width of 82% */
+    border-right: solid #D2D3D8;
+    border-radius: 20px 0px 0px 20px;
+    box-sizing: border-box; /* Include padding in the width */
+    position: relative; /* Position relative for containing the spheres and pixel viewer */
+}
+#canvas {
+position: absolute; /* Position the canvas over the image */
+top: 0;
+left: 0;
+}
+.rectangleCustomerFlow {
+    width: 17%; /* Width of 17% */
+    box-sizing: border-box; /* Include padding in the width */
+    background-color: #333333; /* Fill with color #333333 */
+    border-top-right-radius: 20px; /* Add radius to top right corner */
+    border-bottom-right-radius: 20px; /* Add radius to bottom right corner */
+    box-sizing: border-box; 
+    position: relative; /* Position relative for pseudo-elements */
+    color: white; /* Text color */
+    padding: 10px; /* Add padding */
+    display: flex; /* Use flexbox for inner elements */
+    flex-direction: column; /* Stack inner elements vertically */
+    justify-content: space-between; /* Distribute space between inner elements */
+}
+
+.rectangleCustomerFlow::before,
+.rectangleCustomerFlow::after {
+    content: ""; /* Required for pseudo-elements */
+    position: absolute; /* Position absolute for positioning */
+    background-color: #D2D3D8; /* Color of the lines */
+    height: 1px; /* Height of the lines */
+    width: 90%; /* Width of the lines */
+    left: 5%; /* Position the lines at the left edge */
+    opacity: 50%; /* Set opacity */
+}
+
+.rectangleCustomerFlow::before {
+    top: 20%; /* Position the first line at 20% from the top */
+    transform: translateY(-50%); /* Center the lines vertically */
+}
+
+.rectangleCustomerFlow::after {
+    top: 60%; /* Position the second line at 60% from the top */
+    transform: translateY(-50%); /* Center the lines vertically */
+}
+
+#datetime {
+    text-align: center; /* Center text */
+    margin-top: 10px; /* Add margin to separate from lines */
+}
+
+#visitors {
+    text-align: center; /* Center text */
+    position: absolute; /* Position absolute */
+    left: 0; /* Align left */
+    right: 0; /* Align right */
+    top: 30%; /* Position the visitors between the lines */
+    transform: translateY(-50%); /* Center vertically */
+}
+
+.zone-listCustomerFlow {
+    position: absolute; /* Position absolute */
+    left: 0; /* Align left */
+    right: 0; /* Align right */
+    bottom: 10px; /* Adjust bottom spacing */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    text-align: center; /* Center text */
+    list-style: none; /* Remove default list style */
+}
+
+.zone-listCustomerFlow li {
+    margin-bottom: 5px; /* Add margin between list items */
+}
+
+.sphere {
+    position: absolute; /* Position absolute for placing spheres */
+    border-radius: 50%; /* Make it round */
+    z-index: 1; /* Ensure spheres appear above image */
+}
+
+.sphere:hover {
+    transform: scale(1.2); /* Scale up the sphere on hover */
+}
+
+.pixel-viewer {
+    position: absolute; /* Position absolute for hovering effect */
+    display: none; /* Initially hide the pixel viewer */
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent background */
+    padding: 5px; /* Add padding */
+    border-radius: 5px; /* Add border radius */
+    font-size: 14px; /* Adjust font size */
+    z-index: 2; /* Ensure pixel viewer appears above spheres */
+}
+.large-sphere {
+    position: absolute; /* Position absolute for placing spheres */
+    border-radius: 50%; /* Make it round */
+    z-index: 0; /* Ensure spheres appear below other elements */
+    opacity: 50%; /* Set opacity */
+}
+.containerCustomerFlow:hover .pixel-viewer {
+    display: block; /* Show pixel viewer on hover */
+}
+
+.lineCustomerFlow {
+    position: absolute; /* Position absolute for lines */
+    background-color: #AAD696; /* Color of the lines */
+    z-index: 0; /* Ensure lines appear below other elements */
+}
+

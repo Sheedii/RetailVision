@@ -1,0 +1,81 @@
+.topTenTableTontainer{
+    padding: 0 2% 2% 2%;
+}
+
+
+
+.topTenTableTontainer .price-table th,
+.topTenTableTontainer .price-table td{
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.1);
+}
+
+.topTenTableTontainer .price-table th{
+    color: #08074e;
+    text-align: center;
+    font-family: "Hanken Grotesk-Bold", sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+}
+.topTenTableTontainer .price-table td{
+    color: #08074e;
+    text-align: center;
+    font-family: "Hanken Grotesk-Semi Bold", sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.topTenTableTontainer .price-table .negativeCase{
+    color: rgb(255, 135, 135);
+    border: 2px solid rgb(255, 135, 135);
+    background-color: #fffdfd;
+}
+.topTenTableTontainer .price-table .PositiveCase{
+    color: rgb(46, 166, 46);
+    border: 2px solid rgb(46, 166, 46);
+    background-color: #fcfffc;
+}
+
+.topTenTableTontainer tbody tr:first-child td:nth-child(1),
+.topTenTableTontainer tbody tr:first-child td:nth-child(2),
+.topTenTableTontainer tbody tr:first-child td:nth-child(3),
+.topTenTableTontainer tbody tr:nth-child(1) td:nth-child(4) {
+    border-color: #FFD700;
+    border: solid 2.5px #FFD700;
+    box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0.1);
+}
+
+.topTenTableTontainer tbody tr:nth-child(2) td:nth-child(1),
+.topTenTableTontainer tbody tr:nth-child(2) td:nth-child(2),
+.topTenTableTontainer tbody tr:nth-child(2) td:nth-child(3),
+.topTenTableTontainer tbody tr:nth-child(2) td:nth-child(4) {
+    border-color: #BCC6CC;
+    border: solid 2.5px #BCC6CC;
+    box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0.1);
+}
+
+.topTenTableTontainer tbody tr:nth-child(3) td:nth-child(1),
+.topTenTableTontainer tbody tr:nth-child(3) td:nth-child(2),
+.topTenTableTontainer tbody tr:nth-child(3) td:nth-child(3),
+.topTenTableTontainer tbody tr:nth-child(3) td:nth-child(4) {
+    border-color: #CD7F32;
+    border: solid 2.5px #CD7F32;
+    box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0.1);
+}
+
+.topTenTableTontainer td:nth-child(2) {
+    color: #08074e;
+    text-align: center;
+    font-family: "Hanken Grotesk-Bold", sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    align-items: center;
+}
+
+.topTenHelp{
+    color: #08074e;
+    text-align: center;
+    font-family: "Hanken Grotesk-regular", sans-serif;
+    font-size: 7px;
+    font-weight: 600;
+    align-items: center;
+}

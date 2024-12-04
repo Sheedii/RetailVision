@@ -1,0 +1,90 @@
+.averageResults {
+    color: #08074e;
+    text-align: center;
+    font-family: "Hanken Grotesk-Semi Bold", sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.ChartTitle {
+    color: #08074e;
+    text-align: center;
+    font-family: "Hanken Grotesk-Semi Bold", sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.echartContainer {
+    width: 85%;
+    height: 366px;
+}
+
+.chartPart {
+    padding-top: 20px;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.statisticsNumbers {
+    width: 30%;
+    justify-content: center;
+    align-items: center;
+}
+
+.Statistics {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    width: 100%;
+    padding-top: 20px;
+}
+
+.statisticNumbers {
+    background: #f3f5fa;
+    border-radius: 20px;
+    padding: 20px 10px 10px 10px;
+    width: 80%;
+}
+
+.percentageRed {
+    color: #9e1421;
+    font-family: "Hanken Grotesk-Semi Bold", sans-serif;
+    font-size: 130%;
+    font-weight: 600;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.percentageGreen {
+    color: #149E19;
+    font-family: "Hanken Grotesk-Semi Bold", sans-serif;
+    font-size: 130%;
+    font-weight: 600;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.percentageTitle {
+    color: #000000;
+    text-align: center;
+    font-family: "Hanken Grotesk-Semi Bold", sans-serif;
+    font-size: 140%;
+    line-height: 16px;
+    font-weight: 600;
+}
+
+.Up,
+.Down{
+    width: 20%;
+}

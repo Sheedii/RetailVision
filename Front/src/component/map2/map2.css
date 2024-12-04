@@ -1,0 +1,36 @@
+.map2{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.background2 {
+    width: 800px; /* Set the width of the image */
+    height: 353px; /* Set the height of the image */
+    background-image: url('../../assets/Plan-olympique.png'); /* Replace 'your-image.jpg' with the path to your image */
+    border: solid 5px #08074E;
+    border-radius: 20px 0 0 20px;
+    background-size: cover; /* Cover the entire container with the image */
+    transform-origin: center center; /* Set the rotation origin to the center */
+}
+
+.heatmapSVG2 {
+    width: 685px; /* Set the same width as the image */
+    height: 435px; /* Set the same height as the image */
+    border-radius: 20px 0 0 20px;
+}
+
+.tooltip2 {
+    position: absolute;
+    z-index: 10;
+    background-color: white;
+    padding: 5px;
+    border: 1px solid black;
+    pointer-events: none;
+    display: none;
+}
+
+.mapContainer2 {
+    width: 695px; /* Set the width of the container */
+    height: 446px; /* Set the height of the container */
+}

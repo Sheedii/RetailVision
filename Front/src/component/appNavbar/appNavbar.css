@@ -1,0 +1,242 @@
+.appNavbar {
+    position: fixed;
+    height: 76px;
+    width: 100%;
+    background: #F3F5FA;
+    box-shadow: 0px 0px 0px 1px rgba(27, 31, 35, 0.15),
+        0px 1px 3px 0px rgba(0, 0, 0, 0.02);
+    transition: background-color 0.3s ease;
+    top: 0;
+    z-index: 999;
+}
+
+.appNavbar.scrolled {
+    background-color: #D9DFEE;
+}
+
+.wise__appNavbar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 4% 0 7%;
+    background: #F3F5FA;
+    height: 76px;
+    box-shadow: 0px 0px 0px 1px rgba(27, 31, 35, 0.15),
+        0px 1px 3px 0px rgba(0, 0, 0, 0.02);
+}
+
+.wiselogo2,
+.links_logo2 {
+    width: 120px;
+    height: 40px;
+}
+
+.links_container2 {
+    display: flex;
+    color: #d9d9d9;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    /*transform: translate(3.5%);*/
+    height: 76px;
+}
+
+.sign2 {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+
+
+.affinicty_testing0,
+.activeAffi{
+    text-align: right;
+}
+
+.affinicty_testing0,
+.activeAffi,
+.customer_behavior .customer_behaviorLink,
+.dashboard .dashboardLink,
+.sales_forecasting {
+    color: #8e98a8;
+    width: 200px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    cursor: pointer;
+    height: 76px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+}
+
+
+
+
+.customer_behavior .activeCustomer_behaviorLink {
+    width: 200px;
+    text-align: left;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    cursor: pointer;
+    height: 76px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #08074e;
+    border-bottom: 5px solid #08074e;
+}
+
+.dashboard .activeDashboardLink {
+    width: 200px;
+    text-align: left;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    cursor: pointer;
+    height: 76px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #08074e;
+    border-bottom: 5px solid #08074e;
+}
+
+.activeAffi,
+.sales_forecasting .active {
+    color: #08074e;
+    border-bottom: 5px solid #08074e;
+}
+
+.applogout {
+    color: #ffffff;
+    background: #08074e;
+    text-align: center;
+    font-family: "Hanken Grotesk-Semi Bold", sans-serif;
+    font-size: 12px;
+    width: 80px;
+    font-weight: 600;
+    border: #D9D9D9;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.myAccount {
+    padding: 0.4rem 1rem;
+    display: flex;
+    justify-content: center;
+    color: #08074e;
+    text-align: center;
+    font-family: "Hanken Grotesk-Regular", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    width: 162px;
+    height: 35px;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: #08074e;
+    border-width: 0.75px;
+    cursor: pointer;
+display: none;
+}
+
+.logoutbutt {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem 1rem;
+    color: #ffffff;
+    background: #08074e;
+    text-align: center;
+    font-family: "Hanken Grotesk-Semi Bold", sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    width: 105px;
+    height: 35px;
+    border-radius: 20px;
+    margin-left: 10px;
+    cursor: pointer;
+    margin-right: 40px;
+
+}
+
+.LogoutIcon {
+    width: 11px;
+    height: 13.75px;
+}
+
+.affinicty_testing0 select {
+    color: #8e98a8;
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    font-weight: 400;
+    background-color: transparent;
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    width: auto;
+    cursor: pointer;
+    border: none;
+    height: auto;
+    padding: 25px 25px 25px 25px;
+    align-items: center;
+    top: 0;
+}
+
+
+.pageChoice {
+    color: #08074e;
+    background: #ffffff;
+    text-align: left;
+    font-family: "Hanken Grotesk-Regular", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.pageChoice :hover{
+    background: #e6e6ed;
+    border-radius: 5px;
+}
+
+.etitre {
+    display: none;
+}
+
+.activeAffi select {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    color: #08074e;
+    font-weight: 400;
+    background-color: transparent;
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    width: auto;
+    cursor: pointer;
+    border: none;
+    height: auto;
+    padding: 25px 25px 25px 25px;
+    align-items: center;
+    top: 0;
+}
+
+.activeAffi .selecti option {
+    background: #ffffff;
+    border-radius: 0px 0px 22px 22px;
+    width: 300px;
+    height: 162px;
+    margin-top: 30px;
+}
+.activeAffi .selecti .pageChoice {
+    background: #ffffff;
+    padding: 10px;
+}

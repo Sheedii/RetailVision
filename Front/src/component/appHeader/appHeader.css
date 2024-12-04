@@ -1,0 +1,31 @@
+/* Rectangle.css */
+.appHeader {
+    position: relative;
+    background: #d9dfee;
+    z-index: -2;
+    width: 100%;
+    margin-top: 76px;
+}
+
+.appHeaderTitle {
+    color: #08074e;
+    text-align: center;
+    font-family: "Hanken Grotesk-Semi Bold", sans-serif;
+    font-size: 45px;
+    font-weight: 600;
+    padding-top: 85px;
+    padding-bottom: 112px;
+}
+
+.grille_background_img {
+    opacity: 0.7;
+}
+
+.grille_background {
+    background: #d9dfee;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+}

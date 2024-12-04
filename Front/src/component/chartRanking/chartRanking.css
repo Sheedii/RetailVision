@@ -1,0 +1,128 @@
+.Mg_ranking_chart {
+    width: 100%;
+    margin-top: 110px;
+}
+
+.logosChart {
+    display: flex;
+}
+
+.mg_logo,
+.carrefour_logo,
+.carrefourMarket_logo,
+.monoprix_logo,
+.aziza_logo {
+    width: 7%;
+    position: absolute;
+    transition: opacity 0.3s ease;
+    cursor: pointer;
+}
+
+
+.mg_logo:hover,
+.carrefour_logo:hover,
+.carrefourMarket_logo:hover,
+.monoprix_logo:hover,
+.aziza_logo:hover {
+    opacity: 1;
+    width: 8.5%;
+    transform: translateX(-8%);
+}
+
+.logosChart:hover .mg_logo:not(:hover),
+.logosChart:hover .carrefour_logo:not(:hover),
+.logosChart:hover .carrefourMarket_logo:not(:hover),
+.logosChart:hover .monoprix_logo:not(:hover),
+.logosChart:hover .aziza_logo:not(:hover) {
+    opacity: 0.5;
+}
+
+._096 {
+    left: 16.5%;
+    margin-top: 50px;
+}
+
+._097 {
+    left: 24%;
+    margin-top: 50px;
+}
+
+._098 {
+    left: 31.5%;
+    margin-top: 50px;
+}
+
+._099 {
+    left: 38.9%;
+    margin-top: 50px;
+}
+
+._100 {
+    left: 46.5%;
+    margin-top: 50px;
+}
+
+._101 {
+    left: 54%;
+    margin-top: 50px;
+}
+
+._102 {
+    left: 61.5%;
+    margin-top: 50px;
+}
+
+._103 {
+    left: 69%;
+    margin-top: 50px;
+}
+
+._104 {
+    left: 76.4%;
+    margin-top: 50px;
+}
+
+.second_096 {
+    left: 16.5%;
+    margin-top: 8px;
+}
+
+.second_097 {
+    left: 24%;
+    margin-top: 8px;
+}
+
+.second_098 {
+    left: 31.5%;
+    margin-top: 8px;
+}
+
+.second_099 {
+    left: 38.9%;
+    margin-top: 8px;
+}
+
+.second_100 {
+    left: 46.5%;
+    margin-top: 8px;
+}
+
+.second_101 {
+    left: 54%;
+    margin-top: 8px;
+}
+
+.second_102 {
+    left: 61.5%;
+    margin-top: 8px;
+}
+
+.second_103 {
+    left: 69%;
+    margin-top: 8px;
+}
+
+.second_104 {
+    left: 76.4%;
+    margin-top: 8px;
+}

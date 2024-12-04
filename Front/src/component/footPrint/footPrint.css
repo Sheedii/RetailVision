@@ -1,0 +1,94 @@
+.PrintHeatmap {
+    color: #08074e;
+    text-align: left;
+    font-family: "Inter-SemiBold", sans-serif;
+    font-size: 20px;
+    line-height: 150%;
+    font-weight: 600;
+}
+
+.footPrintDate {
+    color: #8e98a8;
+    text-align: center;
+    font-family: "HankenGrotesk-Bold", sans-serif;
+    font-size: 9px;
+    font-weight: 700;
+}
+
+.footTitle {
+    height: 57px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 8%;
+    padding-left: 2%;
+    margin-right: 8%;
+    padding-right: 2%;
+    border-style: solid;
+    border-color: #08074e;
+    border-width: 0px 0px 2px 0px;
+}
+
+.PrintHeatmapIcon {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.weekSelection select {
+    display: inline-block;
+    color: #08074e;
+    text-align: left;
+    font-family: "Hanken Grotesk-Regular", sans-serif;
+    font-size: 11px;
+    font-weight: 400;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: #08074e;
+    border-width: 2px;
+    width: 95px;
+    height: 35px;
+}
+
+.weekSelection {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    margin-right: 8%;
+    padding-right: 2%;
+    height: 46px;
+    padding-top: 10px;
+}
+
+.footPrintTime {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: end;
+    padding-right: 10px;
+    color: #8e98a8;
+    text-align: left;
+    font-family: "Hanken Grotesk-Regular", sans-serif;
+    font-size: 14px;
+    line-height: 16px;
+    gap: 40px;
+    padding-top: 20px;
+}
+
+.footPrintModel {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+.footPrint {
+    background: #f3f5fa;
+    border-style: solid;
+    border-color: #d2d3d8;
+    border-width: 0px 0px 2px 0px;
+}

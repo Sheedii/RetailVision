@@ -1,0 +1,70 @@
+.heatmap {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: auto;
+}
+
+.heatmapbackground {
+    width: 90%;
+    z-index: 3;
+    border: solid 5px #08074E;
+    border-radius: 20px 0 0 20px;
+    background-size: cover;
+    transform-origin: center center;
+    pointer-events: none; /* Allow events to pass through the image */
+}
+
+.heatmapMini {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: auto;
+}
+
+.heatmapMini .heatmapbackground {
+    border-radius: 0 0px 20px 20px;
+    width: 100%;
+}
+
+
+.heatmapTooltip {
+    position: absolute;
+    z-index: 4; /* Higher than all other elements to remain on top */
+    padding: 5px;
+    border: 1px solid black;
+    background-color: white;
+    display: none; 
+}
+
+.heat {
+    position: absolute;
+    z-index: 1;
+    border-radius: 20px 0 0 20px;
+    padding: 5px 0 0 5px;
+}
+
+.heatmapMini .heat {
+    border-radius: 20px;
+    padding: 5px 0 0 5px;
+}
+
+.mapHeader{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0%;
+    padding: 5px 10px 5px 10px;
+    border: 1px solid #8e98a8;
+    border-radius: 20px 20px 0px 0;
+    gap: 10px;
+}
+
+.mapHeadertitle{
+    color: #08074e;
+    text-align: center;
+    font-family: "Hanken Grotesk-Semi Bold", sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+}

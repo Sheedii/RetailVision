@@ -1,0 +1,29 @@
+.selector select {
+    display: inline-block;
+    background-color: transparent;
+    color: #08074e;
+    text-align: left;
+    font-family: "Hanken Grotesk-Semi Bold", sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    width: auto;
+    cursor: pointer;
+}
+
+.selector .select option {
+    display: inline-block;
+}
+
+.selecterhtm {
+    height: 57px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 8%;
+    padding-left: 2%;
+    margin-right: 8%;
+    padding-right: 2%;
+    border-style: solid;
+    border-color: #08074e;
+    border-width: 0px 0px 2px 0px;
+}

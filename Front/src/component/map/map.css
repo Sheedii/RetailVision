@@ -1,0 +1,42 @@
+.map {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.background {
+    width: 601px; /* Set the width of the image */
+    height: 793px; /* Set the height of the image */
+    background-image: url('../../assets/map.jpeg'); /* Replace 'your-image.jpg' with the path to your image */
+    background-size: cover; /* Cover the entire container with the image */
+    transform-origin: center center; /* Set the rotation origin to the center */
+    border: solid 5px #08074E;
+    border-radius: 0 0 20px 20px;
+}
+
+.heatmapSVG {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 793px; /* Set the same width as the image */
+    height: 601px; /* Set the same height as the image */
+}
+
+.tooltip {
+    position: absolute;
+    z-index: 10;
+    background-color: white;
+    padding: 5px;
+    border: 1px solid black;
+    pointer-events: none;
+    display: none;
+}
+
+.mapContainer {
+    width: 793px; /* Set the width of the container */
+    height: 601px; /* Set the height of the container */
+    transform: rotate(90deg);
+    margin-top: 150px;
+}

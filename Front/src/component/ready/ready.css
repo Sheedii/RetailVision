@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap');
+
+.readyComponent {
+    background: #040C18;
+    padding: 150px 7% ;
+}
+
+.rectangle24 {
+    background: linear-gradient(
+      180deg,
+      rgba(217, 217, 217, 0) 0%,
+      rgba(217, 217, 217, 0) 100%
+    );
+    border-radius: 162.5px;
+    border-style: solid;
+    border-color: #008989;
+    border-width: 4px 0px 4px 0px;
+    height: 281px;
+    box-shadow: 0px 4px 70px 17px rgba(0, 128, 128, 0.5);
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .ourhelp {
+    color: #ffffff;
+    text-align: center;
+    font-family: "Hanken Grotesk-SemiBold", sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+    width: 70%;
+  }
+
+  .butt {
+    position: relative;
+    overflow: hidden;
+    height: 3rem;
+    padding: 0 1rem;
+    border-radius: 1.5rem;
+    background: transparent;
+    background-size: 400%;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+
+  }
+  
+  .butt:hover::before {
+    transform: scaleX(1);
+      border-radius: 1.5rem;
+  }
+  
+  .buttContent {
+    position: relative;
+    z-index: 1;
+  }
+  
+  .butt::before {
+    content: "";
+    position: absolute;
+    box-shadow: 0px 4px 70px 17px rgba(0, 128, 128, 0.5);
+    top: 0;
+    left: 0;
+    transform: scaleX(0.4);
+    transform-origin: 0 50%;
+    width: 100%;
+    height: inherit;
+    border-radius: 50%;
+    background: rgba(0, 128, 128, 0.5);
+    opacity: 0.5;
+    transition: all 0.475s;
+  }
+  
+  .arrow1 {
+    width: 15.15px;
+    height: 10px;
+    margin-left: 5px;
+    overflow: visible;
+  }
+
+  .container1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .mission {
+    color: #ffffff;
+    text-align: center;
+    font-family: "Hanken Grotesk-SemiBold", sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+    padding-top: 10rem;
+    width: 70%;
+  }
+
+  .missionParagraphe {
+    padding: 2rem ;
+    color: #ffffff;
+    text-align: center;
+    font-family: "Hanken Grotesk-Regular", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    width: 70%;
+  }
+
+  @media screen and (max-width: 500px) {
+    .ourhelp {
+      font-size: 20px;
+    }
+    .mission {
+      font-size: 25px;
+    }
+  }

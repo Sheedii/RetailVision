@@ -1,0 +1,129 @@
+.wise_carousel {
+    margin-bottom: 100px;
+    
+  }
+
+  .flech {
+    display: flex;
+    flex-direction: row;
+    justify-content: center ;
+    gap: 1.5rem;
+    padding-bottom: 20px; 
+ }
+
+  
+.Lbtn,
+.Rbtn {
+    background: transparent;
+    display: flex;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    
+}
+
+.right,
+.left {
+    width: 40px;
+    height: 40px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.5);
+  cursor: pointer;
+}
+
+.group05 {
+  display: none;
+}
+
+
+@media screen and (max-width: 700px) {
+  .ok {
+    display: none;
+  }
+  .flech{
+    display: none;
+  }
+
+  .group05 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    padding-top: 20px;
+  }
+  .rectangle200 {
+    background: #008080;
+    border-radius: 7.05px;
+    width: 55%;
+    height: 300px;
+    box-shadow: 0px 2.03px 86.14px 10.13px rgba(0, 128, 128, 0.7);
+  }
+  ._21 {
+    color: #ffffff;
+    text-align: left;
+    font-family: "Karla-Regular", sans-serif;
+    font-size: 141.00634765625px;
+    font-weight: 400;
+  }
+
+  .rectangle21 {
+    border-radius: 13.91px;
+    border-style: solid;
+    border-color: #246eb9;
+    border-width: 2px;
+    width: 55%;
+    height: 300px;
+  }
+  ._22 {
+    color: #246eb9;
+    text-align: left;
+    font-family: "Karla-Regular", sans-serif;
+    font-size: 141.00634765625px;
+    font-weight: 400;
+  }
+  
+
+  .rectangle220 {
+    border-radius: 13.91px;
+    border-style: solid;
+    border-color: #07194e;
+    border-width: 2px;
+    width: 55%;
+    height: 300px;
+  }
+  ._23 {
+    color: #07194e;
+    text-align: left;
+    font-family: "Karla-Regular", sans-serif;
+    font-size: 141.00634765625px;
+    font-weight: 400;
+    width: 84px;
+    height: 132px;
+  }
+
+}
+
+.insights{
+  color: #c5c5c5;
+  text-align: center;
+  font-family: "Hanken Grotesk-Regular", sans-serif;
+  font-size: 40px;
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px 10% 0 10%;
+}
+.insights2{
+  color: #c5c5c5;
+  text-align: center;
+  font-family: "Hanken Grotesk-Regular", sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px 10% 0 10%;
+}

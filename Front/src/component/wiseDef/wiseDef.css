@@ -1,0 +1,47 @@
+.WiseDescriptionPage {
+    background: #040C18;
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 50px;
+}
+
+.description0 {
+    color: #ffffff;
+    text-align: center;
+    font-family: "HankenGrotesk-Regular", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    width: 50%;
+    margin: 0 40px;
+}
+
+
+.wisellipse {
+    border-radius: 50%;
+    border-width: 5px;
+    border-style: solid;
+    background: linear-gradient(87.38deg, rgba(8, 7, 78, 1), rgba(0, 128, 128, 1));
+    border-image: linear-gradient(87.38deg,
+            rgba(8, 7, 78, 1) 0%,
+            rgba(0, 128, 128, 1) 99.73378777503967%);
+    border-image-slice: 1;
+    height: 422px;
+    width: 422px;
+    object-fit: cover;
+    box-shadow: 0 0 50px rgb(4, 56, 108);
+}
+
+@media screen and (max-width: 500px) {
+
+    .wisellipse {
+        width: 60%;
+        height: auto;
+    }
+
+    .description {
+        font-size: 17px;
+    }
+}

@@ -1,0 +1,96 @@
+.AutoCorrelationTable {
+    width: 100%;
+    border-collapse: collapse;
+    padding: 1% 10% 2% 10%;
+    border-collapse: separate;
+    border-spacing: 10px;
+    background-clip: padding-box;
+}
+
+.AutoCorrelationTable th,
+.AutoCorrelationTable td {
+    background: #f9f9f9;
+    border-radius: 10px;
+    border: 1px solid #8d8dae;
+    text-align: center;
+    font-family: "Hanken Grotesk-Regular", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    padding: 5px 17px;
+    height: 48px;
+    margin: 5px;
+    box-sizing: border-box;
+}
+
+.AutoCorrelationTable td {
+    font-size: 11px;
+    height: 40px;
+}
+
+.AutoCorrelationTable th {
+    color: #08074e;
+    text-align: center;
+    font-family: "Hanken Grotesk-Semi Bold", sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    align-items: center;
+}
+
+.AutoCorrelationTable td:nth-child(1) {
+    color: #08074e;
+    text-align: center;
+    font-family: "Hanken Grotesk-Semi Bold", sans-serif;
+    font-size: 11px;
+    font-weight: 600;
+    align-items: center;
+}
+.CorrelationfirstProd{
+    color: #8d8dae;
+    text-align: center;
+    font-family: "Hanken Grotesk-Semi Bold", sans-serif;
+    font-size: 18px;
+    line-height: 31.34px;
+    letter-spacing: 0.28px;
+    font-weight: 600;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    margin-left: 10%;
+    gap: 4px;
+    margin-top: 15px;
+}
+
+.theItemNumbers {
+    color: #08074e;
+    text-align: center;
+    font-family: "Hanken Grotesk-Semi Bold", sans-serif;
+    font-size: 17px;
+    font-weight: 600;
+
+}
+
+.AutoCorrelationTable tbody tr:first-child td:nth-child(1),
+.AutoCorrelationTable tbody tr:first-child td:nth-child(2),
+.AutoCorrelationTable tbody tr:first-child td:nth-child(3) {
+    border-color: #FFD700;
+    box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0.1);
+}
+
+.AutoCorrelationTable tbody tr:nth-child(2) td:nth-child(1),
+.AutoCorrelationTable tbody tr:nth-child(2) td:nth-child(2),
+.AutoCorrelationTable tbody tr:nth-child(2) td:nth-child(3) {
+    border-color: #BCC6CC;
+    box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0.1);
+}
+
+.AutoCorrelationTable tbody tr:nth-child(3) td:nth-child(1),
+.AutoCorrelationTable tbody tr:nth-child(3) td:nth-child(2),
+.AutoCorrelationTable tbody tr:nth-child(3) td:nth-child(3) {
+    border-color: #CD7F32;
+    box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0.1);
+}
+
+.fhemtny{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}

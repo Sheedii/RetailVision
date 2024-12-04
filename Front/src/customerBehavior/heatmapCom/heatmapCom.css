@@ -1,0 +1,69 @@
+.HeatmapCom {
+    background: #d9dfee;
+    padding: 0 8%;
+    padding-bottom: 3%;
+}
+
+.HeatmapContainer {
+    background: #f3f5fa;
+    padding: 0px 0 3% 0;
+    border-radius: 0px 20px 20px 20px;
+}
+
+.ComponentHeader {
+    padding: 2% 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.comTitle {
+    color: #08074e;
+    text-align: left;
+    font-family: "Hanken Grotesk-Semi Bold", sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    text-decoration: underline;
+}
+
+.titleTime {
+    color: #08074e;
+    text-align: center;
+    font-family: "Hanken Grotesk-Semi Bold", sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.selectTime {
+    color: #8e98a8;
+    text-align: center;
+    font-family: "Hanken Grotesk-Medium", sans-serif;
+    font-size: 10px;
+    font-weight: 600;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.MapDiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2% 4% 0 4% ;
+}
+
+.heatmapapply{
+    margin-left: 15px;
+}
+
+.HeatmapContainer .GoToTopTenButtons {
+    width: 145px;
+}

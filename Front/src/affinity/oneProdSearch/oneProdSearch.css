@@ -1,0 +1,156 @@
+.OneProdSearchComponent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 220px;
+}
+
+.OneProdSearch_inner {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    width: 220px;
+}
+
+.OneProdSearch_container {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    width: 220px;
+}
+
+.OneProdSearch_container .OneProdSearch_inner input {
+    border-radius: 25px;
+    padding-left: 5px;
+    border-style: solid;
+    border-color: #8d8dae;
+    color: #8d8dae;
+    text-align: left;
+    font-family: "Hanken Grotesk-Regular", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    border-width: 2px;
+    margin: 0;
+    height: 25px;
+}
+
+
+.OneProddropdown {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    background: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0px 16px 25px -10px rgba(0, 0, 0, 0.15);
+    padding: 5px;
+    width: 220px;
+    position: absolute;
+    margin-top: 30px;
+    max-height: 170px;
+    overflow: auto;
+    z-index: 5;
+
+}
+
+.OneProddropdown::-webkit-scrollbar {
+    width: 4px;
+    height: 4px;
+    border-radius: 20px;
+}
+
+.OneProddropdown::-webkit-scrollbar-thumb {
+    background: #e6e6ed;
+    border-radius: 10px;
+}
+
+.OneProddropdown::-webkit-scrollbar-track {
+    background: transparent;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-radius: 20px;
+}
+
+.seconddropdownPrice_row {
+    width: 100%;
+    color: #08074e;
+    white-space: nowrap;
+    /* Prevent text from wrapping */
+    overflow: hidden;
+    /* Hide the overflow content */
+    text-overflow: ellipsis;
+    /* Display ellipsis (...) for overflow text */
+    border: none solid none solid;
+    /* Optional: Add a border for visibility */
+    border-color: #949494;
+    border-width: 2px;
+    padding: 6px 0px;
+    cursor: context-menu;
+    text-align: left;
+    font-family: "Hanken Grotesk-Regular", sans-serif;
+    font-size: 10px;
+    font-weight: 400;
+}
+
+.seconddropdownPrice_row:hover {
+    background: #e6e6ed;
+    border-radius: 5px;
+}
+
+
+
+.articlesCheck {
+    color: #08074e;
+    text-align: left;
+    font-family: "Hanken Grotesk-Regular", sans-serif;
+    font-size: 11px;
+    font-weight: 400;
+    padding: 5px 10px;
+}
+
+.roww {
+    white-space: nowrap;
+}
+
+.OneProdDropdown-option {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 2px 5px;
+    cursor: pointer;
+    text-decoration: none;
+    color: #08074e;
+    height: 26.75px;
+    text-align: left;
+    font-family: "Hanken Grotesk-Regular", sans-serif;
+    font-size: 10px;
+    font-weight: 400;
+}
+
+.OneProdDropdown-option:hover {
+    background: #e6e6ed;
+  border-radius: 5px;
+}
+
+.OneProdDropdown-option input {
+    margin-right: 5px;
+}
+
+[type="checkbox"]:not(:checked),
+[type="checkbox"]:checked {
+    position: relative;
+    opacity: 1;
+    pointer-events: none;
+    accent-color: #08074e;
+}
+
+.OneProdDropdown-option a {
+    text-decoration: none;
+    color: black;
+}
+
+.OneProdDropdown-option a:hover {
+    text-decoration: underline;
+}

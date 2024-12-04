@@ -1,0 +1,243 @@
+.navbar {
+    width: 100%;
+    background: #040C18;
+}
+
+.wise__navbar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem 10% 2rem 10%;
+    background: #040C18;
+}
+
+
+.links_logo {
+    width: 38px;
+    height: 32px;
+}
+
+.links_container {
+    display: flex;
+    color: #d9d9d9;
+    flex-direction: row;
+   /* transform: translate(5%);*/
+}
+
+.sign {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+
+
+.home {
+    color: #D9D9D9;
+    text-align: left;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    margin: 0 1rem;
+    cursor: pointer;
+}
+
+.about {
+    color: #D9D9D9;
+    text-align: left;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    margin: 0 1rem;
+    cursor: pointer;
+
+}
+
+.services {
+    color: #D9D9D9;
+    text-align: left;
+    font-family: "Roboto", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    margin: 0 1rem;
+    cursor: pointer;
+}
+
+.active {
+    color: #008080;
+    border-bottom: 2px solid #008080;
+}
+
+
+
+.loginbutt {
+    padding: 0.5rem 1rem;
+    color: #D9D9D9;
+    background: #008080;
+    text-align: center;
+    font-family: "Hanken Grotesk", sans-serif;
+    font-size: 15.25px;
+    font-weight: 400;
+    width: 92px;
+    height: 35px;
+    border: #D9D9D9;
+    border-radius: 15px;
+    margin-left: 10px;
+    cursor: pointer;
+
+}
+
+.contact {
+    padding: 0.5rem;
+    color: #D9D9D9;
+    text-align: center;
+    font-family: "Hanken Grotesk", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    width: 92px;
+    height: 35px;
+    border-radius: 15px;
+    border-radius: 15px;
+    border-style: solid;
+    border-color: #d9d9d9;
+    border-width: 0.75px;
+    cursor: pointer;
+display: none;
+}
+
+
+
+.mobilenavbar {
+    display: none;
+}
+
+@media screen and (max-width: 1000px) {
+    .sign {
+        flex-direction: column;
+    }
+
+    .links_container {
+        transform: translate(4%);
+    }
+}
+
+
+@media screen and (max-width: 650px) {
+    .vector0 {
+        margin-right: 10%;
+    }
+
+    .wise__navbar {
+        padding: 2rem 0% 2rem 10%;
+        background: #040C18;
+    }
+
+    .mobilenavbar {
+        display: contents;
+        width: 20px;
+        height: 18.76px;
+        overflow: visible;
+    }
+
+    .sign {
+        display: none;
+    }
+
+    .links_container {
+        display: none;
+    }
+
+    .navbar {
+        padding-top: 30px;
+    }
+
+    .menu {
+        position: absolute;
+        display: flex;
+        justify-content: right;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        z-index: 999;
+        right: 0;
+        top: 10px
+    }
+
+    .active {
+        color: #008080;
+        border-bottom: 2px solid #008080;
+    }
+    .rectangle5 {
+        background: #040C18;
+        width: 240px;
+        height: 630px;
+        border-radius: 20px 0px 0px 20px;
+        border: solid;
+        border-color: #008080;
+        border-width: 0px 0px 0px 5px;
+
+        box-shadow: 0px 4px 126.6px 143px rgba(0, 0, 0, 0.5);
+        padding-left: 5px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .navcontent {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+
+    .links_container20 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: right;
+        gap: 30px;
+    }
+
+    .close {
+        position: absolute;
+        background: gray;
+        width: 5px;
+        height: 70px;
+        border-radius: 5px;
+        right: 220px;
+    }
+
+
+    .bottou {
+        color: #fff;
+        font-size: 25px;
+    }
+
+    .home20,
+    .about2,
+    .services20 {
+        display: flex;
+        flex-direction: row;
+        align-items: baseline;
+        gap: 5px;
+
+    }
+
+    .rondelle {
+        width: 15px;
+        height: 15px;
+        background: gray;
+        border-radius: 50%;
+        border: solid;
+        border-color: #fff;
+        border-width: 2px;
+    }
+
+    .sign2 {
+        position: absolute;
+        bottom: 50px;
+    }
+
+
+}

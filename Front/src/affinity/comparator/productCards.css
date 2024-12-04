@@ -1,0 +1,104 @@
+.ProductCardsContainer {
+    padding: 20px 5.5% 10px 5.5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 3.3%;
+}
+
+.ProductCards2Container {
+    padding: 50px 5.5% 10px 5.5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 3.3%;
+}
+
+.Card {
+    background: #f3f5fa;
+    border: solid 2px #c3ceec;;
+    border-radius: 15px;
+    height: 130px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.salesFigures {
+    color: #08074e;
+    text-align: left;
+    font-family: "Hanken Grotesk-Semi Bold", sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+    margin-left: 6%;
+    margin-top: 5%;
+}
+
+.progressContainer {
+    width: 100%;
+    background: #d9dfee;
+    height: 13px;
+    border-radius: 7px;
+}
+
+.progressvert {
+    height: 13px;
+    border-radius: 7px;
+    background: rgb(56, 169, 56);
+    width: 85%;
+}
+
+.progressrouge {
+    height: 13px;
+    border-radius: 7px;
+    background: rgb(192, 77, 77);;
+    width: 30%;
+}
+
+.ProgressTitle {
+    color: #333333;
+    text-align: left;
+    font-family: "Hanken Grotesk-Regular", sans-serif;
+    font-size: 11px;
+    font-weight: 600;
+}
+
+.FirstProgress {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: end;
+    gap: 10px;
+    width: 100%;
+}
+
+.numberofprogress {
+    color: #62b5b5;
+    text-align: right;
+    font-family: "Hanken Grotesk-Regular", sans-serif;
+    font-size: 9px;
+    font-weight: 600;
+}
+
+.numberofprogress2 {
+    color: #B34C57;
+    text-align: right;
+    font-family: "Hanken Grotesk-Regular", sans-serif;
+    font-size: 9px;
+    font-weight: 600;
+}
+
+.progressBar {
+    width: 70%;
+}
+
+.barsprog {
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}

@@ -1,0 +1,82 @@
+.css-b62m3t-container {
+    width: 255px;
+    height: 42px;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: #8d8dae;
+    border-width: 2px;
+}
+
+.css-b62m3t-container .css-13cymwt-control,
+.css-t3ipsp-control div {
+    background-color: transparent;
+    border: none;
+}
+
+.css-b62m3t-container .css-t3ipsp-control {
+    background-color: transparent;
+    border: none;
+    border-radius: 10px;
+    border-color: #08074e;
+}
+
+.react-select__menu {
+    border-radius: 20px;
+    border-style: solid;
+    border-color: #08074e;
+    border-width: 2px;
+}
+
+.css-1nmdiq5-menu {
+    color: #08074e;
+    padding: 4px;
+}
+
+.css-1nmdiq5-menu .css-d7l1ni-option {
+    background: #e6e6ed;
+    border-radius: 5px;
+
+}
+
+.css-b62m3t-container div {
+    overflow-y: hidden;
+    color: #8d8dae;
+    text-align: left;
+    font-family: "Hanken Grotesk-Regular", sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    padding-left: 5px;
+    margin-bottom: 2px;
+}
+
+.Search2 .css-1hb7zxy-IndicatorsContainer {
+    height: 42px;
+}
+
+.Search2 .css-qbdosj-Input {
+    margin-top: -20px;
+    height: 42px;
+    border: none;
+}
+
+.Search2 .css-1fdsijx-ValueContainer{
+    height: 42px;
+    border: none;
+}
+
+.Search2 .css-b62m3t-container .css-t3ipsp-control {
+    height: 30px;
+    border-radius: 20px;
+}
+.Search2 .css-166bipr-Input {
+    height: 30px;
+    border: none;
+}
+.Search2 .css-166bipr-Input input{
+    height: 30px;
+    border: none;
+}
+
+.Search2 .css-b62m3t-container ::after{
+    border: none;
+}

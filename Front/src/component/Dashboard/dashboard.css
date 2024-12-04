@@ -1,0 +1,295 @@
+.dashboard-wrapper {
+    display: flex;
+    justify-content: center;
+    padding: 0 20px 50px 20px;
+    background: #d9dfee;
+    min-height: 100vh;
+}
+
+.dashboard-main-card {
+    background: #f3f5fa;
+    border-radius: 30px;
+    padding: 70px 50px;
+    width: 85%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+
+.custumer_behavior_card {
+    background-image:
+        linear-gradient(114.71deg, rgba(0, 0, 0, 0) 8.06%, rgba(8, 7, 78, 1) 100%),
+        url('../../assets/heatmap.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 48%;
+    border-radius: 24.34px;
+    object-fit: cover;
+    height: 295.35px;
+    color: #ffffff;
+    text-align: left;
+    font-family: "Hanken Grotesk-Bold", sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: end;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.custumer_behavior_card:hover {
+    background-image:
+        linear-gradient(114.71deg,
+            rgba(0, 0, 0, 0) 0%,
+            rgba(4, 3, 37, 0.48) 8.500000089406967%,
+            rgba(8, 7, 78, 1) 89.49999809265137%),
+        url('../../assets/heatmap.png');
+}
+
+.custumer_behavior_card_title {
+    padding-right: 30px;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+.firstRow {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 3%;
+    margin-bottom: 10px;
+}
+
+.custumer_behavior_insights {
+    width: 48%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.totalvisitors {
+    background: #ffffff;
+    border-radius: 25px;
+    width: 60%;
+    padding: 2% 3% 2% 3%;
+}
+
+.NumberOfVisitors {
+    color: #08074e;
+    text-align: left;
+    font-family: "Hanken Grotesk-Semi Bold", sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    padding-left: 15px;
+}
+
+.dateCard {
+    background: #08074e;
+    border-radius: 25px;
+    width: 35%;
+    padding: 2% 3% 2% 3%;
+}
+
+
+._520 {
+    color: #5f6b8f;
+    text-align: left;
+    font-family: "Hanken Grotesk-Regular", sans-serif;
+    font-size: 35px;
+    font-weight: 400;
+    padding-left: 25px;
+}
+
+.yesterdayNumberComplete {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+    padding-left: 5%;
+}
+
+.yesterdayNumber {
+    color: #62b5b5;
+    text-align: left;
+    font-family: "HankenGrotesk-SemiBold", sans-serif;
+    font-size: 10px;
+    font-weight: 600;
+}
+
+.yesterdayNumberDesc{
+    color: #5f6b8f;
+    font-family: "Noto Sans Bengali-Semi Condensed", sans-serif;
+    font-size: 10px;
+    font-weight: 400;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 4px;
+}
+
+.number_icon {
+    padding-bottom: 3px;
+}
+
+.monthOfTheDate {
+    color: #ffffff;
+    text-align: left;
+    font-family: "Hanken Grotesk-Bold", sans-serif;
+    font-size: 33px;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+}
+
+.yearOfTheDate {
+    color: #ffffff;
+    text-align: left;
+    font-family: "Hanken Grotesk-Regular", sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+}
+
+.twoCards {
+    display: flex;
+    flex-direction: row;
+    gap: 5%;
+    justify-content: center;
+}
+
+.popularDep {
+    background: #ffffff;
+    background-image: linear-gradient(90deg,
+            rgba(8, 7, 78, 1) 0%,
+            rgba(255, 255, 255, 0) 100%),
+        url('../../assets/fresh.svg');
+    border-radius: 24.34px;
+    padding: 2% 3% 2% 3%;
+    width: 100%;
+    height: auto;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.popularDep:hover {
+    background: #ffffff;
+    background-image: linear-gradient(90deg,
+            rgba(8, 7, 78, 1) 0%,
+            rgba(124, 124, 161, 0.53) 99.98999834060669%,
+            rgba(255, 255, 255, 0) 100%),
+        url('../../assets/fresh.svg');
+    border-radius: 24.34px;
+    padding: 2% 3% 2% 3%;
+    width: 100%;
+    height: auto;
+    background-size: cover;
+    background-position: center;
+}
+
+.popularDepartement {
+    color: #ffffff;
+    text-align: left;
+    font-family: "Hanken Grotesk-Semi Bold", sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    padding-left: 3%;
+}
+
+.theDepartement {
+    color: #ffffff;
+    text-align: left;
+    font-family: "Hanken Grotesk-Regular", sans-serif;
+    font-size: 33px;
+    font-weight: 400;
+    padding-left: 5%;
+    padding-bottom: 3%;
+}
+
+.zoneChart {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 48%;
+    background: #ffffff;
+    border-radius: 24.91px;
+    height: 317px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    cursor: pointer;
+}
+
+.visitZone {
+    position: absolute;
+    color: #08074e;
+    text-align: right;
+    font-family: "Hanken Grotesk-Bold", sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+    justify-content: end;
+    margin-top: 270px;
+    margin-left: 20%;
+    cursor: pointer;
+}
+
+.trendy {
+    background: #ffffff;
+    border-radius: 25px;
+    height: 317px;
+    width: 48%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.trendy_products {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+    margin-left: 48%;
+    color: #08074e;
+    font-family: "Hanken Grotesk-Bold", sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 1%;
+    cursor: pointer;
+}
+
+.ranking {
+    background: #ffffff;
+    border-radius: 25px;
+    padding: 20px;
+}
+
+.dashboardRanking {
+    padding: 20px 10% 20px 10%;
+}
+
+.price_index {
+    color: #08074e;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+    font-family: "HankenGrotesk-Bold", sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    margin-top: 25px;
+    margin-right: 5px;
+    gap: 10px;
+    cursor: pointer;
+}

@@ -1,0 +1,23 @@
+.OurService {
+    background: #040C18;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 40px;
+}
+.title {
+
+    color: #ffffff;
+    text-align: center;
+    font-family: "HankenGrotesk", sans-serif;
+    font-size: 70px;
+    font-weight: 600;
+    padding-top: 120px;
+    padding-bottom: 30px;
+      
+}
+
+@media screen and (max-width: 600px) {
+    .title {
+    font-size: 50px;
+    }
+}

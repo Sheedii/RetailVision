@@ -1,0 +1,86 @@
+.PageChangerButton {
+    position: absolute;
+    margin-top: -39px;
+    margin-left: 120px;
+    z-index: 2;
+}
+
+.SecondpageChangerButton {
+    position: absolute;
+    margin-top: -39px;
+    background: #f3f5fa;
+    border-radius: 20px 20px 0px 0px;
+    width: 145px;
+    height: 39px;
+    z-index: 1;
+    box-shadow:  -2px 0px 2px 0px rgba(0, 0, 0, 0.25);
+    color: #08074e;
+    text-align: center;
+    font-family: "Hanken Grotesk-Semi Bold", sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding-left: 10px;
+}
+
+.secondOverViewImg {
+    position: absolute;
+    margin-top: -86px;
+    margin-left: -30px;
+    width: 120px;
+    transition: opacity 0.2s ease;
+    opacity: 0;
+}
+
+.SecondpageChangerButton:hover+.secondOverViewImg {
+    opacity: 1;
+}
+
+.secondPageChanger {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    outline: none;
+    width: 150px;
+    height: 39px;
+    background: #08074e;
+    border-radius: 20px 20px 0 0;
+    border: 1px solid #8F9092;
+    transition: all 0.2s ease;
+    font-weight: 600;
+    color: #ffffff;
+    text-align: center;
+    font-family: "Hanken Grotesk-Semi Bold", sans-serif;
+    font-size: 15px;
+    box-shadow: 2px 0px 16.8px 0px rgba(0, 0, 0, 0.25);
+}
+
+.SecondpageChangerButton:hover {
+    box-shadow: 0 4px 3px 1px #FCFCFC, 0 6px 8px #D6D7D9, 0 -4px 4px #CECFD1, 0 -6px 4px #FEFEFE, inset 0 0 3px 3px #CECFD1;
+}
+
+.tableGeneralPivot {
+    padding: 3% 3% 5% 3%;
+}
+
+.SecondPriceIndexChoices {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    padding: 25px 4% 25px 4%;
+}
+
+.EtatSelection {
+    width: 70px;
+}
+
+.ArticleSelection {
+    width: 200px;
+}
+
+.BucketSelection {
+    width: 70px;
+}

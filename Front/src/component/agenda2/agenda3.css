@@ -1,0 +1,305 @@
+.agenda3date_picker_container .date_picker0 .react-datepicker-wrapper div {
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    height: 26.75px;
+    color: #8d8dae;
+}
+
+.agenda3date_picker_container .react-datepicker__view-calendar-icon img {
+    position: absolute;
+    top: -8px;
+}
+
+
+.agenda3date_picker_container .date_picker0 .react-datepicker__input-container {
+    background: transparent;
+    border-radius: 15px;
+    border-style: solid;
+    border-color: #8d8dae;
+    border-width: 2px;
+    display: flex;
+    height: 26.75px;
+}
+
+.agenda3date_picker_container .date_picker0 .react-datepicker__input-container input {
+    background: transparent;
+    border-style: none;
+    color: #8d8dae;
+    text-align: left;
+    font-family: "Hanken Grotesk-Regular", sans-serif;
+    font-size: 10px;
+    font-weight: 400;
+    margin: -4px;
+    margin-left: 2px;
+}
+
+.agenda3date_picker_container .date_picker0 .react-datepicker__navigation--previous {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #08074e;
+    border-radius: 50%;
+    padding: 7px 12px 0px 0px;
+    width: 15px;
+    height: 15px;
+    cursor: pointer;
+    left: 30%;
+    top: 20px;
+}
+
+
+.agenda3date_picker_container .date_picker0 .react-datepicker__navigation--next {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #08074e;
+    border-radius: 50%;
+    padding: 11px 0px 4px 12px;
+    width: 15px;
+    height: 15px;
+    cursor: pointer;
+    left: 65%;
+    top: 20px;
+}
+
+.agenda3date_picker_container .react-datepicker__header {
+    background-color: transparent;
+    color: white;
+    border-bottom: transparent;
+    padding: 0%;
+}
+
+
+
+.agenda3date_picker_container .react-datepicker {
+    font-family: 'Arial', sans-serif;
+    border-radius: 20px;
+    border-color: transparent;
+    box-shadow: 0px 3px 7px -3px rgba(0, 0, 0, 0.3),
+        0px 6px 12px -2px rgba(50, 50, 93, 0.25);
+}
+
+.agenda3date_picker_container .react-datepicker__navigation-icon::before {
+    width: 5px;
+    height: 5px;
+}
+
+.agenda3date_picker_container .react-datepicker__current-month {
+    color: #08074e;
+    text-align: center;
+    font-family: "Hanken Grotesk-Regular", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    display: none;
+    align-items: center;
+    justify-content: center;
+}
+
+.agenda3date_picker_container .react-datepicker__day-names div {
+    margin-bottom: -10px;
+    color: #8d8dae;
+    font-family: "Hanken Grotesk-Regular", sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.agenda3date_picker_container .react-datepicker__week {
+    padding: 0px 20px;
+}
+
+.agenda3date_picker_container .react-datepicker__day {
+    font-size: 10px;
+    color: #08074e;
+    font-family: "Hanken Grotesk-Regular", sans-serif;
+    text-align: center;
+}
+
+.agenda3date_picker_container .react-datepicker__day--in-range {
+    background-color: #8d8dae;
+    border-radius: 10px;
+    font-size: 10px;
+    color: rgb(255, 255, 255);
+}
+
+.agenda3date_picker_container .react-datepicker__day--today {
+    opacity: 0.5;
+    color: #ffffff;
+    text-align: center;
+    font-family: "Hanken Grotesk-Regular", sans-serif;
+    font-weight: 400;
+    background: #8d8dae;
+    border-radius: 20px;
+}
+
+.agenda3date_picker_container .react-datepicker__day--range-start,
+.agenda3date_picker_container .react-datepicker__day--range-end {
+    background-color: #08074e;
+    ;
+    border-radius: 20px;
+    font-size: 10px;
+    color: rgb(255, 255, 255);
+}
+
+.agenda3date_picker_container .react-datepicker__month-container {
+    padding: 10px;
+}
+
+.agenda3date_picker_container .react-datepicker__year-select,
+.agenda3date_picker_container .react-datepicker__year-read-view span {
+    visibility: visible;
+    background: transparent;
+    border: transparent;
+    color: #08074e;
+    text-align: center;
+    font-family: "Hanken Grotesk-Regular", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+
+.agenda3date_picker_container .react-datepicker__month-read-view span {
+    visibility: visible;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background: transparent;
+    border: transparent;
+    text-align: center;
+    color: #08074e;
+    font-family: "Hanken Grotesk-Regular", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    cursor: pointer;
+
+}
+
+.agenda3date_picker_container .react-datepicker__navigation--years-upcoming,
+.agenda3date_picker_container .react-datepicker__navigation--years-previous {
+    display: none;
+}
+
+.agenda3date_picker_container .react-datepicker__year-option,
+.agenda3date_picker_container .react-datepicker__month-dropdown {
+    color: #08074e;
+}
+
+.agenda3date_picker_container .react-datepicker__header__dropdown--select,
+.agenda3date_picker_container .react-datepicker__header__dropdown {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 4px;
+}
+
+.agenda3date_picker_container .agendaButtons {
+    margin-left: 37px;
+    margin-bottom: 10px;
+    width: 250px;
+}
+
+.agenda3date_picker_container .agendaCancel {
+    background: transparent;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: #8d8dae;
+    color: #8d8dae;
+    border-width: 0.5px;
+    text-align: center;
+    font-family: "Hanken Grotesk-Regular", sans-serif;
+    margin-right: 10px;
+    height: 40px;
+    width: 100px;
+}
+
+.agenda3date_picker_container .agendaApply {
+    background: #08074e;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: #8d8dae;
+    border-width: 0.5px;
+    color: #fdfdfd;
+    text-align: center;
+    font-family: "Hanken Grotesk-Regular", sans-serif;
+    height: 40px;
+    width: 100px;
+}
+
+.agenda3date_picker_container .agendaCancel0 {
+    background: transparent;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: #8d8dae;
+    color: #8d8dae;
+    border-width: 0.5px;
+    text-align: center;
+    font-family: "Hanken Grotesk-Regular", sans-serif;
+    margin-right: 10px;
+    height: 40px;
+    width: 100px;
+    margin-left: -55px;
+}
+
+.agenda3date_picker_container .agendaApply0 {
+    background: #08074e;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: #8d8dae;
+    border-width: 0.5px;
+    color: #fdfdfd;
+    text-align: center;
+    font-family: "Hanken Grotesk-Regular", sans-serif;
+    height: 40px;
+    width: 100px;
+}
+
+.agenda3date_picker_container .AgendaSelect0 {
+    position: absolute;
+    margin-left: 10px;
+    margin-top: 12px;
+    color: #08074e;
+    text-align: left;
+    font-family: "Hanken Grotesk-Regular", sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+}
+
+.agenda3date_picker_container .iconeAgenda0 {
+    position: absolute;
+    right: 0;
+    z-index: 0;
+}
+
+.agenda3date_picker_container .iconAgenda0 {
+    width: 20px;
+    height: 20px;
+    margin-right: 20px;
+    margin-top: 15px;
+}
+
+.agenda3date_picker_container .iconTextInput0 {
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    right: 2px;
+    margin-top: 5px;
+}
+
+.agenda3date_picker_container .agenda2date {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.agenda3date_picker_container .date_picker0 .from,
+.agenda3date_picker_container .date_picker0 .to {
+    color: #8d8dae;
+    text-align: center;
+    font-family: "HankenGrotesk-Regular", sans-serif;
+    font-size: 9px;
+    font-weight: 400;
+}

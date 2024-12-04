@@ -1,0 +1,177 @@
+.fonta {
+    font-family: 'Hanken Grotesk', sans-serif;
+
+    opacity: 30%;
+}
+
+.rectangle-containerComp {
+    position: relative;
+    width: 68px;
+    height: 223px;
+}
+
+.rectangleComp {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #08074E;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    z-index: 1;
+    /* Ensure the rectangle is below the lines */
+}
+
+.line1,
+.line2,
+.line03 {
+    position: absolute;
+    width: 90%;
+    opacity: 0.5;
+    height: 0.3px;
+    /* Set the height of the lines */
+    background-color: #D2D3D8;
+    /* Contrast color */
+    left: 0;
+    z-index: 2;
+    /* Ensure the lines are above the rectangle */
+}
+
+.line1 {
+    top: 24%;
+    left: 5%;
+    /* 101.5 / 410 * 100 */
+}
+
+.line2 {
+    top: 45%;
+    left: 5%;
+    /* 190 / 410 * 100 */
+}
+
+.line03 {
+    top: 65%;
+    left: 5%;
+    /* 300 / 410 * 100 */
+}
+
+.partComp {
+    position: absolute;
+    color: #fff;
+    font-size: 5px;
+    font-weight: bold;
+    text-align: center;
+    z-index: 3;
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-weight: normal;
+    /* Use Hanken Grotesk font */
+    top: 25%;
+    /* Adjust the top position */
+}
+
+/* Ensure the parts are above the lines */
+
+
+.part1 {
+    top: 5%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.part2 {
+    top: 34%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.part3 {
+    top: 50%;
+    left: 5%;
+    /* Move to the left */
+    transform: translateX(0);
+    /* Reset the translation */
+}
+
+.part4 {
+    top: 72%;
+    /* Adjust the top position */
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.writing {
+    position: relative;
+    left: -3px;
+    color: #F3F5FA;
+    opacity: 30%;
+    font-family: 'Hanken Grotesk', sans-serif;
+
+}
+
+.writing:nth-child(2) {
+    top: 0px;
+    /* Adjust this value as needed */
+}
+
+.writing:nth-child(3) {
+    top: 27px;
+    /* Adjust this value as needed */
+}
+
+/* Additional styling for hexagons */
+.hexagonComp {
+    width: 8px;
+    height: 8px;
+    clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+}
+
+.meterComp {
+    position: relative;
+    top: -65px;
+    left: 8px
+}
+
+.grey {
+    background-color: #C7CFE6;
+    /* White color */
+}
+
+.green {
+    background-color: #AAD696;
+    /* Red color */
+}
+
+.yellow {
+    background-color: #FEB700;
+    /* Blue color */
+}
+
+.orange {
+    background-color: #FF6B00;
+    /* Blue color */
+}
+
+.red {
+    background-color: #9E1421;
+    /* Blue color */
+}
+
+/* Adjust position of hexagons */
+.hexagon:nth-child(2) {
+    top: 17px;
+    /* Adjust this value as needed */
+}
+
+.hexagon:nth-child(3) {
+    top: 34px;
+    /* Adjust this value as needed */
+}
+
+.hexagon:nth-child(4) {
+    top: 51px;
+    /* Adjust this value as needed */
+}
+
+.hexagon:nth-child(5) {
+    top: 68px;
+    /* Adjust this value as needed */
+}

@@ -1,0 +1,50 @@
+.wise_sevices {
+    display: flex;
+    position: relative;
+}
+
+.ellip{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #040C18;
+    width: 100%;
+    height: auto;
+}
+
+
+.Ll {
+    position: absolute;
+    background: #08074e;
+    border-radius: 50%;
+    width: 200px;
+    height: 449px;
+    filter: blur(110px);
+    z-index: 3;
+}
+
+.Rl {
+    top: 0;
+    right: 0;
+    background: #008080;
+    opacity: 0.6;
+    border-radius: 50%;
+    width: 200px;
+    height: 449px;
+    filter: blur(110px);
+    position: absolute;
+    z-index: 3;
+}
+
+@media screen and (max-width: 500px) { 
+    .Rl{
+        width: 100px;
+        height: 200px;
+    }
+    
+    .Ll {
+        width: 100px;
+        height: 200px;
+    }
+
+}

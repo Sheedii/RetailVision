@@ -1,0 +1,153 @@
+.wise__footer {
+    padding-left: 10%;
+    place-items: center;
+    margin: 0 auto;
+    background: linear-gradient(180deg,
+            #000204 0%,
+            #040C18 50%,
+            rgba(0, 128, 128, 1) 100%);
+    padding: 4rem 4rem;
+    width: 100%;
+}
+
+.wiseF {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.wise__footer_links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+.rectangle22 {
+    background: linear-gradient(180deg,
+            #040C18 0%,
+            rgba(0, 128, 128, 1) 100%);
+    border-width: 4px 0px 0px 0px;
+    border-style: solid;
+    border-image: linear-gradient(90deg,
+            #040C18 0%,
+            rgba(0, 128, 128, 1) 48.500001430511475%,
+            #040C18 100%);
+    border-image-slice: 1;
+    width: 100%;
+}
+
+
+.wiselogo {
+    width: 200px;
+    height: 3%;
+
+}
+
+.wise__footer_links_logo {
+    color: rgba(255, 255, 255, 0.7);
+    text-align: left;
+    font-family: "Roboto-ExtraLight", sans-serif;
+    font-size: 12px;
+    font-weight: 200;
+    height: 0.82%;
+}
+.wise__footer_links_logo div{
+    padding-left: 10px;
+}
+.buttdesc {
+    color: #fff;
+    margin-left: 4px;
+}
+
+
+.arrow-2 {
+    height: 1.6em;
+    width: 1.6em;
+    border-radius: 50%;
+    border-style: solid;
+    border-color: transparent;
+    border-width: 4px;
+}
+
+
+.buttup {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 50%;
+}
+
+.line002 {
+    border-width: 0.75px 0 0 0;
+    border-style: solid;
+    border-image: linear-gradient(90deg,
+            rgba(255, 255, 255, 0) 0%,
+            rgba(255, 255, 255, 1) 50.507962703704834%,
+            rgba(255, 255, 255, 0) 100%);
+    border-image-slice: 1;
+    width: 80%;
+    margin-top: 20px;
+}
+
+.icon {
+    line-height: 30px;
+    width: 112px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    transform: translate(-50%);
+}
+
+.links_div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+
+.wise__footer-copyright {
+    margin-top: 2rem;
+    text-align: center;
+    width: 100%;
+}
+
+.wise__footer-copyright p {
+    font-size: 12px;
+    font-family: var(--font-family);
+    line-height: 15px;
+    color: #fff;
+}
+
+@media screen and (max-width: 700px) {
+    .wiselogo {
+        width: 100px;
+        height: 3%;
+    
+    }
+    .wise__footer_links_logo {
+        font-size: 10px;
+    }
+
+    .icon {
+        transform: translate(0%);
+    }
+
+}
+
+@media screen and (max-width: 550px) {
+
+    }
+
+
+@media screen and (max-width: 400px) {
+
+}

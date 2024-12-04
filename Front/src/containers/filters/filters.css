@@ -1,0 +1,45 @@
+.filters{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+    padding: 30px 5% 30px 5% ;
+}
+
+.filters .react-datepicker-wrapper div {
+    width: 180px;
+    height: 46px;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: #8e98a8;
+}
+
+.filters .react-datepicker__input-container input {
+    border-bottom: 0px;
+}
+
+.filters .css-b62m3t-container {
+    width: 180px;
+    height: 46px;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: #8e98a8;
+    border-width: 2px;
+}
+
+.filters .css-13cymwt-control div {
+    align-items: center;
+    height: 42px;
+}
+
+.filters .css-1jqq78o-placeholder {
+    margin-top: 8px;
+    color: rgb(207, 207, 207);
+}
+
+.selectors {
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    gap: 10px;
+}

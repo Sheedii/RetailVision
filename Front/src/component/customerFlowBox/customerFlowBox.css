@@ -1,0 +1,9 @@
+.CFB {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: start;
+    padding-top: 60px;
+    padding-bottom: 70px;
+    width: 100%;
+}

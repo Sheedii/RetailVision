@@ -1,0 +1,132 @@
+.box0 {
+
+    background: #f3f5fa;
+    border-style: solid;
+    border-color: #d2d3d8;
+    border-width: 0px 0px 0px 0px;
+    padding-bottom: 30px;
+    border-radius: 0px 0px 20px 20px;
+    margin-bottom: 50px;
+
+}
+.HeatMapContainer0{
+    background: #d9dfee;
+    padding: 0 8% ;
+    padding-bottom: 100px;
+}
+
+.mapSpacer {
+    width: 20px; /* Adjust the width to control the space between the maps */
+}
+
+.HeatMapContainer1{
+    background: #f3f5fa;
+    padding: 0px 0 70px 0;
+    border-radius: 30px;
+    border-radius: 20px 20px 20px 20px;
+}
+.box0 select {
+    display: inline-block;
+    background-color: transparent;
+    color: #08074e;
+    text-align: left;
+    font-family: "Hanken Grotesk-Semi Bold", sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    width: auto;
+    cursor: pointer;
+}
+
+.box0 .select option {
+    display: inline-block;
+}
+
+.selecterhtm {
+    height: 57px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 8%;
+    padding-left: 2%;
+    margin-right: 8%;
+    padding-right: 2%;
+    border-style: solid;
+    border-color: #08074e;
+    border-width: 0px 0px 2px 0px;
+}
+
+.refresh {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    margin-right: 8%;
+    padding-right: 2%;
+    height: 46px;
+}
+
+.refreshButton {
+    color: white;
+    background-color: transparent;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 2rem;
+    cursor: pointer;
+    color: #08074e;
+    text-align: left;
+    font-family: "Hanken Grotesk-Semi Bold", sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 600;
+    margin-right: 0.5rem;
+    display: inline-flex;
+    align-items: center;
+    border: none;
+}
+
+.refreshButton img {
+    width: 1.3rem;
+    height: 1.3rem;
+    margin-left: 0.75rem;
+}
+
+.htmap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding-top: 4%;
+    padding-bottom: 4%;
+}
+
+.changeButton {
+    position: absolute;
+    color: white;
+    background-color: transparent;
+    color: #08074e;
+    left:  11%;
+    text-align: left;
+    font-family: "Hanken Grotesk-Semi Bold", sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.changeButton img {
+    width: 1.3rem;
+    height: 1.3rem;
+    margin-left: 0.75rem;
+}
+
+.filtersChange{
+display: flex; /* Use flexbox to arrange items in a row */
+    align-items: center;
+    justify-content: end;
+    border-style: solid;
+    border-color: #d2d3d8;
+    border-width: 0px 0px 2px 0px;
+}

@@ -1,0 +1,61 @@
+.MapCompare {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 2% 10%;
+    gap: 3%;
+}
+
+.selectTimes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.firstLineTime .heatmapDate_container {
+    z-index: 7;
+}
+
+.bigMap {
+    background: #e5e9f4;
+    border-radius: 20px;
+    padding: 3%;
+    margin: 0 7% 0 7%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.miniDate {
+    color: #08074e;
+    text-align: center;
+    font-family: "Hanken Grotesk-Semi Bold", sans-serif;
+    font-size: 10px;
+    line-height: 16px;
+    font-weight: 600;
+}
+
+.DefaultRectangle {
+    border-radius: 20px;
+    border-style: solid;
+    border-color: #8d8dae;
+    border-width: 1px;
+    color: #8d8dae;
+    text-align: center;
+    font-family: "Hanken Grotesk-Regular", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    width: 80%;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ZoomIn{
+    cursor: pointer;
+}

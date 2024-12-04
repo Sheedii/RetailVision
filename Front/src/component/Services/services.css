@@ -1,0 +1,42 @@
+.wise_sevices {
+    display: flex;
+    position: relative;
+}
+
+.back-ellipse {
+    padding-top: 100px;
+    background: #040C18;
+    width: 100%;
+    height: auto;
+    position: absolute;
+    z-index: -2;
+}
+
+
+#filter0_b_599_98 {
+    width: 100%;
+    height: auto;
+}
+
+.Llumiere {
+    position: absolute;
+    background: #08074e;
+    border-radius: 50%;
+    width: 200px;
+    height: 449px;
+    filter: blur(110px);
+    z-index: 3;
+}
+
+.Rlumiere {
+    top: 0;
+    right: 0;
+    background: #008080;
+    opacity: 0.6;
+    border-radius: 50%;
+    width: 200px;
+    height: 449px;
+    filter: blur(110px);
+    position: absolute;
+    z-index: 3;
+}

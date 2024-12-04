@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+.accordion {
+  width: 100%;
+  text-align: left;
+  padding-bottom: 4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #d9d9d9;
+}
+
+
+.line-4 {
+  border-width: 3px 0 0 0;
+  border-style: solid;
+  border-image: linear-gradient(90deg,
+      rgba(0, 128, 128, 0) 0%,
+      rgba(0, 128, 128, 1) 50.999999046325684%,
+      rgba(0, 128, 128, 0) 100%);
+  border-image-slice: 1;
+  width: 202px;
+  height: 0px;
+  transform-origin: 0 0;
+  transform: rotate(-0.003deg) scale(1, 1);
+  padding-bottom: 1rem;
+}
+
+input[type="radio"]:not(:checked)~.ar1 .lbl1 .number1,
+input[type="radio"]:not(:checked)~.ar2 .lbl2 .number2,
+input[type="radio"]:not(:checked)~.ar3 .lbl3 .number3,
+input[type="radio"]:not(:checked)~.ar4 .lbl4 .number4 {
+  color: #d9d9d9;
+  text-align: left;
+  font-family: "Roboto-SemiBold", sans-serif;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+
+input[type="radio"]:checked~.ar1 .lbl1 .number1,
+input[type="radio"]:checked~.ar2 .lbl2 .number2,
+input[type="radio"]:checked~.ar3 .lbl3 .number3,
+input[type="radio"]:checked~.ar4 .lbl4 .number4 {
+  color: #008080;
+  text-align: left;
+  font-family: "Roboto-SemiBold", sans-serif;
+  font-size: 50px;
+  font-weight: 600;
+}
+
+.mission0 {
+  color: #d9d9d9;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.ourmission {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #040C18;
+}
+
+
+input[type="radio"]:not(:checked)~.ar1 .ar1text,
+input[type="radio"]:not(:checked)~.ar2 .ar2text,
+input[type="radio"]:not(:checked)~.ar3 .ar3text,
+input[type="radio"]:not(:checked)~.ar4 .ar4text {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.7s;
+}
+
+
+
+.ar1,
+.ar2,
+.ar3,
+.ar4 {
+  padding: 0.5em;
+  margin: 0.5em auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  background: var(--gradient-2, rgba(0, 128, 128, 0.39));
+  border-radius: 20.31px;
+  border-style: solid;
+  border-color: rgba(0, 0, 0, 0.15);
+  border-width: 0.68px;
+  width: 400px;
+  height: 48px;
+  transition: all 0.7s;
+}
+
+
+input[type="radio"]:checked~.ar1,
+input[type="radio"]:checked~.ar2,
+input[type="radio"]:checked~.ar3,
+input[type="radio"]:checked~.ar4 {
+  background: #d9d9d9;
+  border-radius: 40px;
+  border-style: solid;
+  border-color: rgba(255, 255, 255, 0.2);
+  border-width: 0.68px;
+  width: 70%;
+  height: 114px;
+  color: #008080;
+  font-size: 30px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0px 4px 60px -2px rgba(255, 255, 255, 0.25);
+  transition: all 0.7s;
+}
+
+
+.lbl1,
+.lbl2,
+.lbl3,
+.lbl4 {
+  padding-left: 1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+.ar1text,
+.ar2text,
+.ar3text,
+.ar4text {
+  padding-left: 1rem;
+  color: #008080;
+  text-align: justified;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+
+}
+
+input[type="radio"] {
+  appearance: none;
+
+
+  &~div {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s;
+  }
+
+
+
+
+  &:checked~div {
+    max-height: 200px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+
+  .ar1text,
+  .ar2text,
+  .ar3text,
+  .ar4text {
+    font-size: 15px;
+  }
+
+  input[type="radio"]:checked~.ar1 .lbl1 .number1,
+  input[type="radio"]:checked~.ar2 .lbl2 .number2,
+  input[type="radio"]:checked~.ar3 .lbl3 .number3,
+  input[type="radio"]:checked~.ar4 .lbl4 .number4 {
+    font-size: 30px;
+  }
+  input[type="radio"]:checked~.ar1,
+  input[type="radio"]:checked~.ar2,
+  input[type="radio"]:checked~.ar3,
+  input[type="radio"]:checked~.ar4 {
+    width: 85%;
+  }
+  input[type="radio"]:not(:checked)~.ar1,
+  input[type="radio"]:not(:checked)~.ar2,
+  input[type="radio"]:not(:checked)~.ar3,
+  input[type="radio"]:not(:checked)~.ar4 {
+    width: 80%;
+  }
+}

@@ -1,0 +1,112 @@
+/* Base styles for larger screens */
+.custom-carousel {
+    height: 500px;
+    perspective: 250px;
+    background: #050b1b;
+}
+
+.ourservicesSlider{
+position: relative;
+transform: translateY(-20%);
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+}
+
+.custom-carousel .carousel-item {
+    width: 340.87px;
+    height: 431.84px;
+    padding: 20px;
+    text-align: center;
+    border-radius: 15px;
+    background-color: rgba(0, 128, 128, 0.5);
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    backdrop-filter: blur(10px);
+}
+
+.custom-carousel .img-ss {
+    width: 100%;
+    height: 200.25px;
+    margin-bottom: 10px;
+    border-bottom-left-radius:5%;
+    border-bottom-right-radius:5%;
+}
+
+.custom-carousel .img-ss img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.custom-carousel .testi .paragraphe2 {
+    text-align: justify;
+    font-family: "Hanken Grotesk-Light", sans-serif;
+    font-size: 12px;
+    font-weight: 300;
+    width: 100%;
+    color: #fff;
+}
+
+.custom-carousel .testi h4 {
+    font-family: "Hanken Grotesk-Bold";
+    font-size: 24px;
+    margin: 0;
+    text-align: left;
+    color: #fff;
+}
+
+
+.our-servicess {
+    color: #ffffff;
+    text-align: center;
+    font-family: "Hanken Grotesk-SemiBold", sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    background-color: #050b1b;
+    padding: 20px;
+}
+
+.line3 {
+    border-width: 3px 0 0 0;
+    border-style: solid;
+    border-image: linear-gradient(
+            90deg,
+            rgba(0, 128, 128, 0) 0%,
+            rgba(0, 128, 128, 1) 50.999999046325684%,
+            rgba(0, 128, 128, 0) 100%
+    );
+    border-image-slice: 1;
+    width: 202px;
+    height: 0px;
+    transform-origin: 0 0;
+    transform: rotate(-0.003deg) scale(1, 1);
+    padding-bottom: 1rem;
+    background-color: #050b1b;
+    margin: 0 auto; /* Add this line to center horizontally */
+}
+
+.readme{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+}
+
+@media screen and (max-width: 700px) {
+
+    .custom-carousel{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .custom-carousel .carousel-item {
+        width: 70%;
+    }
+
+
+}
+
+
+
