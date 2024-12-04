@@ -35,19 +35,23 @@ The Affinity Testing module analyzes:
 - **Product correlations:** This component calculates the correlation between products to determine the likelihood of them being purchased together.
   
   - Choose a product and a date range, and it returns the most frequently purchased products alongside the selected product:
+    
     ![Product correlations](./images/correlation.png)
 
   - Choose up to eight products and a date range, and it returns a table showing the likelihood of these products being purchased together:
+    
     ![Products correlations](./images/correlation2.png)
 
 - **Sales Performance Comparator:** Compare the sales performance of selected products over a given period.
   
   - Select one product and two date ranges, or two products and one date range, and it returns a table providing comparative insights on daily revenue, quantity sold, and number of transactions:
+    
     ![Products comparator](./images/comparator.png)
 
 - **Popular Items:** Identify the best-selling products in a specific category on a defined date to detect trends.
   
   - Select a date, category, and sorting order, and it returns the top-selling products in the specified category for that date:
+    
     ![Top Sold Products](./images/topProd.png)
 
 This module provides retail vendors with valuable insights to optimize product placement and sales strategies.
@@ -58,9 +62,11 @@ This module provides retail vendors with valuable insights to optimize product p
 
 A front-end interface for analyzing customer behavior in retail stores. Features include:
 - **Heatmap:** Displays store heatmaps showing areas of high and low foot traffic:
+  
   ![Store heatmap](./images/heatmap.png)
 
 - **Heatmap Comparator:** Compare heatmaps between two date ranges to optimize store layout:
+  
   ![Store heatmap Comparator](./images/heatmapComp.png)
 
 These tools help store managers:
